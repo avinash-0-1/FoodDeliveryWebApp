@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 2%;
+    /* background-color: var(--primary_light); */
+    background-color: antiquewhite;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left p{
+    margin-left: 3%;
+    font-size: large;
+}
+.left .logo{
+    width: max(20%,30px);
+}
+.navbar .profile{
+    width: 50px;
+}

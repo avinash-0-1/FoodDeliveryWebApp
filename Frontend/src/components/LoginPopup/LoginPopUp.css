@@ -1,0 +1,68 @@
+.LoginPopUp{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    display: grid;
+}
+.loginPopup_container{
+    place-self: center;
+    width: max(23vw 330px);
+    color: var(--side_color1);
+    background-color: var(--side_color2);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+.loginPopUp_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.loginPopUp_title img{
+    width: 16px;
+    cursor: pointer;
+}
+.loginPopUp_title img:hover{
+    transform: scale(1.2);
+}
+.loginPopUP_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loginPopUP_input input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 8px;
+    border-radius: 4px;
+}
+.loginPopup_container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--primary);
+    font-size: 15px;
+    cursor: pointer;
+}
+.loginPopUP_condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+.loginPopUP_condition input{
+    margin-top: 5px;
+}
+.LoginPopUp p span{
+    color: var(--primary);
+    font-weight: 500;
+    cursor: pointer;
+}
