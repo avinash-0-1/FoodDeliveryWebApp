@@ -6,7 +6,7 @@ import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 import logo2 from './LOGO2.png'
 
-export const url = 'http://localhost:1010'
+export const url = 'https://fooddel-backend-54k7.onrender.com'
 export const currency = '₹'
 
 export const assets ={

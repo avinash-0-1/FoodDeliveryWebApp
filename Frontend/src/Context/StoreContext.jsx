@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
     const deliveryCharge = 10;
     const currency = "₹";
     const [cartItems, setCartItems] = useState({});
-    const url = "http://localhost:1010";
+    const url = "https://fooddel-backend-54k7.onrender.com";
     const [token, setToken] = useState('')
     const [food_list, setFoodList] = useState([]);
     // --------------------------------------------------------
