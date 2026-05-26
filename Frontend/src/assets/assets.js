@@ -16,7 +16,7 @@ import menu_8 from './menu_8.png'
 import bg1 from './bg1.jpg'
 // import bg2 from './bg2.jpg'
 import bg3 from './bg3.jpg'
-import bg4 from './bg4.jpg'
+import bg4 from './backgr4.jpg'
 import bg5 from './bg5.jpg'
 // ----------------------------------------------------------------------------------
 import food_1 from './food_1.png'
