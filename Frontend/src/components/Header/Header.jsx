@@ -8,7 +8,7 @@ const Header = () => {
     <div className='container'>
       <div className="wrapper">
         <img src={assets.bg1} alt="" />
-        <img src={assets.bg2} alt="" />
+        <img src={assets.bg5} alt="" />
         <img src={assets.bg3} alt="" />
         <img src={assets.bg4} alt="" />
       </div>

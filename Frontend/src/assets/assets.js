@@ -17,6 +17,7 @@ import bg1 from './bg1.jpg'
 import bg2 from './bg2.jpg'
 import bg3 from './bg3.jpg'
 import bg4 from './bg4.jpg'
+import bg5 from './bg5.jpg'
 // ----------------------------------------------------------------------------------
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -92,6 +93,7 @@ export const assets = {
     bg2,
     bg3,
     bg4,
+    bg5
 }
 
 export const menu_list = [
